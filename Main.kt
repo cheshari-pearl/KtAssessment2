@@ -23,16 +23,14 @@ fun numbers(num1: Int, num2:Int, num3: Int, num4: Int) {
      println(numbers.sum())
     println(numbers.count())
     println(numbers.sum() / numbers.count())
-
-
-
-
 }
 
 
 //Qn3
 fun volume(pie: Float) {
  var radius = 2
+    var volume = 4/3 * $pie * 2**3
+    println(volume)
 
 
 }
