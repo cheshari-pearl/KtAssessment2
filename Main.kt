@@ -28,8 +28,8 @@ fun numbers(num1: Int, num2:Int, num3: Int, num4: Int) {
 
 //Qn3
 fun volume(pie: Float) {
- var radius = 2
-    var volume = 4/3 * $pie * 2**3
+
+    var volume = 4/3 * $pie * radius**3
     println(volume)
 
 
